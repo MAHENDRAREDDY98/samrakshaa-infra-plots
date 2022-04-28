@@ -1,0 +1,153 @@
+.booked div,
+#Plot4,
+#Plot5,
+#Plot6,
+#Plot7,
+#Plot8,
+#Plot9,
+#Plot10,
+#Plot11,
+#Plot27,
+#Plot28,
+#Plot29,
+#Plot30,
+#Plot31,
+#Plot43,
+#Plot44,
+#Plot45,
+#Plot46,
+#Plot47,
+#Plot48,
+#Plot49,
+#Plot50,
+#Plot51,
+#Plot57,
+#Plot58,
+#Plot65,
+#Plot67,
+#Plot68 {
+    background-color: #cba527;
+}
+
+.mortgage div,
+#Plot12,
+#Plot13,
+#Plot14,
+#Plot15,
+#Plot16,
+#Plot17,
+#Plot18,
+#Plot19,
+#Plot20,
+#Plot21,
+#Plot22,
+#Plot23,
+#Plot24,
+#Plot25 {
+    background-color: #3bb6e2;
+}
+
+
+/*********************************************************************************
+ ********************   site styles no need to change  ***************************
+ *********************************************************************************/
+
+.available div,
+td {
+    background-color: whitesmoke;
+}
+
+table,
+th,
+td {
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 30px;
+    color: #2f5957;
+    padding: 5px;
+}
+
+td {
+    height: 25px;
+    font-weight: 600;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+.color-declarations {
+    justify-content: space-between;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.available div,
+.booked div,
+.mortgage div {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.available i,
+.booked i,
+.mortgage i {
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.booked,
+.available,
+.mortgage {
+    display: inline-flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center
+}
+
+body,
+#Plot {
+    background: #e2ddcd;
+}
+
+.logo,
+.functions {
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo img {
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+button:hover,
+button:active {
+    background-color: transparent;
+}
+
+.functions {
+    padding-top: 20px;
+}
