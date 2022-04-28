@@ -79,6 +79,7 @@ td {
 table {
     text-align: center;
     margin: auto;
+    justify-content: center;
 }
 
 .color-declarations {
@@ -111,7 +112,6 @@ table {
 .mortgage {
     display: inline-flex;
     margin: auto;
-    width: 50%;
     justify-content: center
 }
 
@@ -122,10 +122,8 @@ body,
 
 .logo,
 .functions {
-    width: 90%;
+    width: 100%;
     margin: auto;
-    justify-content: space-between;
-    display: flex;
 }
 
 .logo img {
@@ -150,4 +148,6 @@ button:active {
 
 .functions {
     padding-top: 20px;
+    justify-content: space-between;
+    display: flex;
 }
