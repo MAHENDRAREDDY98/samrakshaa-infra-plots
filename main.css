@@ -128,6 +128,30 @@ body,
     margin: auto;
 }
 
+@media only screen and (min-width: 600px) {
+    .logo,
+    .functions {
+        width: 80%;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    body {
+        width: 90%;
+        margin: auto;
+    }
+    th {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        width: 80%;
+        margin: auto;
+    }
+}
+
 .logo img {
     width: 100%;
 }
